@@ -1122,10 +1122,10 @@ const _examples = PlotExample[
 # Some constants for PlotDocs and PlotReferenceImages
 _animation_examples = [2, 31]
 _backend_skips = Dict(
-    :gr => [25, 30, 47],
-    :pyplot => [2, 25, 30, 31, 47, 49],
-    :plotlyjs => [2, 21, 24, 25, 30, 31, 49, 51],
-    :plotly => [2, 21, 24, 25, 30, 31, 49, 51],
+    :gr => [30, 47],
+    :pyplot => [2, 30, 31, 47, 49],
+    :plotlyjs => [2, 21, 24, 30, 31, 49, 51],
+    :plotly => [2, 21, 24, 30, 31, 49, 51],
     :pgfplotsx => [
         2, # animation
         6, # images
